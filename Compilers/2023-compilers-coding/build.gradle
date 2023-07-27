@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+    id 'antlr'
+}
+
+group 'org.compilers.software.nju'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    antlr 'org.antlr:antlr4:4.11.1'
+    implementation group: 'org.testng', name: 'testng', version: '[6.11]'
+    implementation 'org.apache.commons:commons-lang3:3.0'
+    implementation("com.google.guava:guava:31.1-jre")
+    // WARNING: The code in src/main/java/llvm/factorial is not compatible with the latest version 15.0.3-1.5.8 as of 2023-05-07.
+    implementation group: 'org.bytedeco', name: 'llvm-platform', version: '11.1.0-1.5.5'
+}
+
+// ['-package', 'list']
+// "-long-messages"
+// "-atn"
+// "-Werror"
+generateGrammarSource {
+    arguments += ["-Xlog", "-visitor"]
+    // see https://discuss.gradle.org/t/using-gradle-2-10s-antlr-plugin-to-import-an-antlr-4-lexer-grammar-into-another-grammar/14970/8
+    arguments << "-lib" << "src/main/antlr/simpleexpr"
+}
+
+test {
+    useTestNG() {
+        useDefaultListeners = true
+    }
+}

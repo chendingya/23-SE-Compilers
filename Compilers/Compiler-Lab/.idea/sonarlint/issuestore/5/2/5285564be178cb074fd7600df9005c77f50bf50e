@@ -1,0 +1,49 @@
+
+¶
+java:S6539"ŸSplit this â€œMonster Classâ€ into smaller and more specialized ones to reduce its dependencies on other classes from 24 to the maximum authorized 20 or less.(æİÇ
+Y
+java:S62080"CMerge the previous cases into this one using comma-separated label.(„¡¤ô
+Y
+java:S6208A"CMerge the previous cases into this one using comma-separated label.(ææ–¾
+c
+java:S1192ı"GDefine a constant instead of duplicating this literal "noType" 4 times.(±ƒã–şÿÿÿÿ
+w
+java:S1488«"[Immediately return this expression instead of assigning it to the temporary variable "ret".(àƒÑöşÿÿÿÿ
+p
+java:S1450"ZRemove the "globalScope" field and declare it as a local variable in the relevant methods.(ìÖ¶
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ï„Ğ úÿÿÿÿ
+L
+java:S2696Y"6Make the enclosing method "static" or remove this set.(˜æûó
+Q
+java:S2696["6Make the enclosing method "static" or remove this set.(áÍ®¿úÿÿÿÿ
+V	java:S125k"<This block of commented-out lines of code should be removed.(àÎ•„úÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(™ÓÖ"
+W	java:S125¬"<This block of commented-out lines of code should be removed.(˜ ÌÎøÿÿÿÿ
+R	java:S125Â"<This block of commented-out lines of code should be removed.(ƒŒ¯ä
+R	java:S125ä"<This block of commented-out lines of code should be removed.(ƒŒ¯ä
+R	java:S125„"<This block of commented-out lines of code should be removed.(ùº‚„
+W	java:S125•"<This block of commented-out lines of code should be removed.(ŠÆÓÖüÿÿÿÿ
+R	java:S125©"<This block of commented-out lines of code should be removed.(Óçä˜
+A
+java:S1172Ş"*Remove this unused method parameter "ctx".(¡‰Æİ
+W	java:S125Â"<This block of commented-out lines of code should be removed.(·»Ôüÿÿÿÿ
+W	java:S125ß"<This block of commented-out lines of code should be removed.(ÛÅ¡ üÿÿÿÿ
+F
+java:S1172Å"*Remove this unused method parameter "ctx".(¾€‡ûÿÿÿÿ
+W	java:S125 "<This block of commented-out lines of code should be removed.(•›èåûÿÿÿÿ
+W	java:S125Æ"<This block of commented-out lines of code should be removed.(£ûÒĞıÿÿÿÿ
+R	java:S125Ó"<This block of commented-out lines of code should be removed.(ŞûøŸ
+F
+java:S1144"0Remove this unused private "reportError" method.(Óî‚ø
+J
+java:S1144&"/Remove this unused private "getHelight" method.(¤Ì¬†ÿÿÿÿÿ
+P
+java:S1144`"5Remove this unused private "toDecimalInteger" method.(ÃÓïüÿÿÿÿ
+E
+java:S1144¼".Remove this unused private "getLineNo" method.(Ú§ãâ
+F
+java:S1144Ş"/Remove this unused private "getExpType" method.(¡‰Æİ
+I
+java:S1144€"2Remove this unused private "checkArgsTyps" method.(÷âÁî
+L
+java:S1144Å"0Remove this unused private "getCondType" method.(¾€‡ûÿÿÿÿ
